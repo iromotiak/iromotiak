@@ -1,95 +1,11 @@
-/* .overlap-group {
-  width: 393px;
-  height: 852px;
-}
-
-.div {
-  display: flex;
-  width: 393px;
-  height: 852px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  gap: 15px;
-  flex-shrink: 0;
-  flex-wrap: wrap;
-  background: #4169E1;
-}
-
-.profile-fav-a-single {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 50px;
-}
-
-.profle {
-  display: flex;
-  width: 361px;
-  padding: 16px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-
-  border-radius: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.50);
-  background: rgba(65, 105, 225, 0.20);
-  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(15px);
-  font-family: sans-serif;
-}
-
-.fav {
-  display: flex;
-  width: 361px;
-  padding: 16px;
-  align-items: flex-start;
-  align-content: flex-start;
-  gap: 16px;
-  flex-wrap: wrap;
-
-  border-radius: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.50);
-  background: rgba(65, 105, 225, 0.20);
-  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(15px);
-
-}
-
-.a-single-word {
-  display: flex;
-  width: 361px;
-  padding: 16px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-
-  border-radius: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.50);
-  background: rgba(65, 105, 225, 0.20);
-  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(15px);
-
-} */
-
-
-/*
-  Note: These are temporary previews of the images. 
-  They're active for 10-15 days only. You should replace them with the actual images before using the code in production.
-*/
-
-
 @media screen and (max-width: 499px) { 
   /*　画面サイズ 499pxまで適用　*/
 }
-
-
 :root {
   --custom-width: min(393px, 100vw);
   --design-width: 393;
   --ratio: calc(var(--custom-width) / var(--design-width));
 }
-
 /* Default classes */
 .pos-abs {
   position: absolute;
@@ -191,14 +107,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-2-387144-container {
   width: 8.7%;
   height: 4.49%;
@@ -234,14 +147,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-3-750510-container {
   width: 8.7%;
   height: 4.49%;
@@ -277,14 +187,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-4-65704-container {
   width: 8.7%;
   height: 4.49%;
@@ -320,14 +227,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-5-38958-container {
   width: 8.7%;
   height: 4.49%;
@@ -363,14 +267,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-6-206379-container {
   width: 8.7%;
   height: 4.49%;
@@ -406,14 +307,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-7-53448-container {
   width: 8.7%;
   height: 4.49%;
@@ -449,14 +347,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-8-100890-container {
   width: 8.7%;
   height: 4.49%;
@@ -492,14 +387,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-9-384951-container {
   width: 8.7%;
   height: 4.49%;
@@ -535,14 +427,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-10-54742-container {
   width: 8.7%;
   height: 4.49%;
@@ -578,14 +467,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-11-836031-container {
   width: 8.7%;
   height: 4.49%;
@@ -621,14 +507,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-12-99008-container {
   width: 8.7%;
   height: 4.49%;
@@ -664,14 +547,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-13-383904-container {
   width: 8.7%;
   height: 4.49%;
@@ -707,14 +587,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-14-377247-container {
   width: 8.7%;
   height: 4.49%;
@@ -750,14 +627,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-15-128725-container {
   width: 8.7%;
   height: 4.49%;
@@ -793,14 +667,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-16-85995-container {
   width: 8.7%;
   height: 4.49%;
@@ -836,14 +707,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-17-96990-container {
   width: 8.7%;
   height: 4.49%;
@@ -879,14 +747,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-18-152852-container {
   width: 8.7%;
   height: 4.49%;
@@ -922,14 +787,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-19-843720-container {
   width: 8.7%;
   height: 4.49%;
@@ -965,14 +827,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-20-8670-container {
   width: 8.7%;
   height: 4.49%;
@@ -1008,14 +867,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-21-433125-container {
   width: 8.7%;
   height: 4.49%;
@@ -1051,14 +907,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-22-48144-container {
   width: 8.7%;
   height: 4.49%;
@@ -1094,14 +947,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-23-667152-container {
   width: 8.7%;
   height: 4.49%;
@@ -1137,14 +987,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-24-363600-container {
   width: 8.7%;
   height: 4.49%;
@@ -1180,14 +1027,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-25-11424-container {
   width: 8.7%;
   height: 4.49%;
@@ -1223,14 +1067,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-26-291669-container {
   width: 8.7%;
   height: 4.49%;
@@ -1266,14 +1107,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-27-644916-container {
   width: 8.7%;
   height: 4.49%;
@@ -1309,14 +1147,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-28-599430-container {
   width: 8.7%;
   height: 4.49%;
@@ -1352,14 +1187,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-29-210296-container {
   width: 8.7%;
   height: 4.49%;
@@ -1395,14 +1227,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-30-759220-container {
   width: 8.7%;
   height: 4.49%;
@@ -1438,14 +1267,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-31-525301-container {
   width: 8.7%;
   height: 4.49%;
@@ -1481,14 +1307,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-32-491027-container {
   width: 8.7%;
   height: 4.49%;
@@ -1524,14 +1347,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-33-271416-container {
   width: 8.7%;
   height: 4.49%;
@@ -1567,14 +1387,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-34-212232-container {
   width: 8.7%;
   height: 4.49%;
@@ -1610,14 +1427,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-35-207577-container {
   width: 8.7%;
   height: 4.49%;
@@ -1653,14 +1467,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-36-78705-container {
   width: 8.7%;
   height: 4.49%;
@@ -1696,14 +1507,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-37-221088-container {
   width: 8.7%;
   height: 4.49%;
@@ -1739,14 +1547,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-38-153416-container {
   width: 8.7%;
   height: 4.49%;
@@ -1782,14 +1587,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-39-393680-container {
   width: 8.7%;
   height: 4.49%;
@@ -1825,14 +1627,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-40-10586-container {
   width: 8.7%;
   height: 4.49%;
@@ -1868,14 +1667,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-41-80040-container {
   width: 8.7%;
   height: 4.49%;
@@ -1911,14 +1707,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-42-506660-container {
   width: 8.7%;
   height: 4.49%;
@@ -1954,14 +1747,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-43-76860-container {
   width: 8.7%;
   height: 4.49%;
@@ -1997,14 +1787,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-44-277178-container {
   width: 8.7%;
   height: 4.49%;
@@ -2040,14 +1827,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-45-187110-container {
   width: 8.7%;
   height: 4.49%;
@@ -2083,14 +1867,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-46-262392-container {
   width: 8.7%;
   height: 4.49%;
@@ -2126,14 +1907,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-47-29022-container {
   width: 8.7%;
   height: 4.49%;
@@ -2169,14 +1947,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-48-161020-container {
   width: 8.7%;
   height: 4.49%;
@@ -2212,14 +1987,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-49-268550-container {
   width: 8.7%;
   height: 4.49%;
@@ -2255,14 +2027,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-50-211700-container {
   width: 8.7%;
   height: 4.49%;
@@ -2298,14 +2067,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-51-170810-container {
   width: 8.7%;
   height: 4.49%;
@@ -2341,14 +2107,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-52-684744-container {
   width: 8.7%;
   height: 4.49%;
@@ -2384,14 +2147,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-53-85162-container {
   width: 8.7%;
   height: 4.49%;
@@ -2427,14 +2187,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-54-270580-container {
   width: 8.7%;
   height: 4.49%;
@@ -2470,14 +2227,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-55-306113-container {
   width: 8.7%;
   height: 4.49%;
@@ -2513,14 +2267,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-56-262793-container {
   width: 8.7%;
   height: 4.49%;
@@ -2556,14 +2307,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-57-612150-container {
   width: 8.7%;
   height: 4.49%;
@@ -2599,14 +2347,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-58-391716-container {
   width: 8.7%;
   height: 4.49%;
@@ -2642,14 +2387,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-59-531110-container {
   width: 8.7%;
   height: 4.49%;
@@ -2685,14 +2427,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-60-34272-container {
   width: 8.7%;
   height: 4.49%;
@@ -2728,14 +2467,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-61-37000-container {
   width: 8.7%;
   height: 4.49%;
@@ -2771,14 +2507,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-62-605440-container {
   width: 8.7%;
   height: 4.49%;
@@ -2814,14 +2547,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-63-441350-container {
   width: 8.7%;
   height: 4.49%;
@@ -2857,14 +2587,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-64-54208-container {
   width: 8.7%;
   height: 4.49%;
@@ -2900,14 +2627,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-65-211002-container {
   width: 8.7%;
   height: 4.49%;
@@ -2943,14 +2667,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-66-161424-container {
   width: 8.7%;
   height: 4.49%;
@@ -2986,14 +2707,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-67-202194-container {
   width: 8.7%;
   height: 4.49%;
@@ -3029,14 +2747,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-68-284692-container {
   width: 8.7%;
   height: 4.49%;
@@ -3072,14 +2787,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-69-12800-container {
   width: 8.7%;
   height: 4.49%;
@@ -3115,14 +2827,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-70-208744-container {
   width: 8.7%;
   height: 4.49%;
@@ -3158,14 +2867,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-71-273504-container {
   width: 8.7%;
   height: 4.49%;
@@ -3201,14 +2907,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-72-495651-container {
   width: 8.7%;
   height: 4.49%;
@@ -3244,14 +2947,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-73-185256-container {
   width: 8.7%;
   height: 4.49%;
@@ -3287,14 +2987,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-74-383152-container {
   width: 8.7%;
   height: 4.49%;
@@ -3330,14 +3027,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-75-188265-container {
   width: 8.7%;
   height: 4.49%;
@@ -3373,14 +3067,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-76-45480-container {
   width: 8.7%;
   height: 4.49%;
@@ -3416,14 +3107,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-77-293928-container {
   width: 8.7%;
   height: 4.49%;
@@ -3459,14 +3147,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-78-34161-container {
   width: 8.7%;
   height: 4.49%;
@@ -3502,14 +3187,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-79-63616-container {
   width: 8.7%;
   height: 4.49%;
@@ -3545,14 +3227,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-80-42897-container {
   width: 8.7%;
   height: 4.49%;
@@ -3588,14 +3267,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-81-21900-container {
   width: 8.7%;
   height: 4.49%;
@@ -3631,14 +3307,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-82-317760-container {
   width: 8.7%;
   height: 4.49%;
@@ -3674,14 +3347,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-83-15181-container {
   width: 8.7%;
   height: 4.49%;
@@ -3717,14 +3387,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-84-596360-container {
   width: 8.7%;
   height: 4.49%;
@@ -3760,14 +3427,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-85-33300-container {
   width: 8.7%;
   height: 4.49%;
@@ -3803,14 +3467,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-86-250325-container {
   width: 8.7%;
   height: 4.49%;
@@ -3846,14 +3507,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-87-54325-container {
   width: 8.7%;
   height: 4.49%;
@@ -3889,14 +3547,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-88-503424-container {
   width: 8.7%;
   height: 4.49%;
@@ -3932,14 +3587,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-89-19264-container {
   width: 8.7%;
   height: 4.49%;
@@ -3975,14 +3627,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-90-291992-container {
   width: 8.7%;
   height: 4.49%;
@@ -4018,14 +3667,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-91-125656-container {
   width: 8.7%;
   height: 4.49%;
@@ -4061,14 +3707,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-92-109335-container {
   width: 8.7%;
   height: 4.49%;
@@ -4104,14 +3747,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-93-150822-container {
   width: 8.7%;
   height: 4.49%;
@@ -4147,14 +3787,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-94-218160-container {
   width: 8.7%;
   height: 4.49%;
@@ -4190,14 +3827,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-95-74228-container {
   width: 8.7%;
   height: 4.49%;
@@ -4233,14 +3867,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-96-76608-container {
   width: 8.7%;
   height: 4.49%;
@@ -4276,14 +3907,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-97-21056-container {
   width: 8.7%;
   height: 4.49%;
@@ -4319,14 +3947,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-98-682945-container {
   width: 8.7%;
   height: 4.49%;
@@ -4362,14 +3987,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-99-155760-container {
   width: 8.7%;
   height: 4.49%;
@@ -4405,14 +4027,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-100-642200-container {
   width: 8.7%;
   height: 4.49%;
@@ -4448,14 +4067,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-101-191709-container {
   width: 8.7%;
   height: 4.49%;
@@ -4491,14 +4107,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-102-434320-container {
   width: 8.7%;
   height: 4.49%;
@@ -4534,14 +4147,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-103-378261-container {
   width: 8.7%;
   height: 4.49%;
@@ -4577,14 +4187,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-104-802644-container {
   width: 8.7%;
   height: 4.49%;
@@ -4620,14 +4227,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-105-78227-container {
   width: 8.7%;
   height: 4.49%;
@@ -4663,14 +4267,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-106-9750-container {
   width: 8.7%;
   height: 4.49%;
@@ -4706,14 +4307,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-107-725952-container {
   width: 8.7%;
   height: 4.49%;
@@ -4749,14 +4347,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-108-636275-container {
   width: 8.7%;
   height: 4.49%;
@@ -4792,14 +4387,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-109-327364-container {
   width: 8.7%;
   height: 4.49%;
@@ -4835,14 +4427,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-110-433203-container {
   width: 8.7%;
   height: 4.49%;
@@ -4878,14 +4467,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-111-561762-container {
   width: 8.7%;
   height: 4.49%;
@@ -4921,14 +4507,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-112-164592-container {
   width: 8.7%;
   height: 4.49%;
@@ -4964,14 +4547,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-113-275608-container {
   width: 8.7%;
   height: 4.49%;
@@ -5007,14 +4587,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-114-35332-container {
   width: 8.7%;
   height: 4.49%;
@@ -5050,14 +4627,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-115-122976-container {
   width: 8.7%;
   height: 4.49%;
@@ -5093,14 +4667,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-116-38012-container {
   width: 8.7%;
   height: 4.49%;
@@ -5136,14 +4707,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-117-402360-container {
   width: 8.7%;
   height: 4.49%;
@@ -5179,14 +4747,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-118-219268-container {
   width: 8.7%;
   height: 4.49%;
@@ -5222,14 +4787,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-119-28670-container {
   width: 8.7%;
   height: 4.49%;
@@ -5265,14 +4827,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-120-214695-container {
   width: 8.7%;
   height: 4.49%;
@@ -5308,14 +4867,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-121-84175-container {
   width: 8.7%;
   height: 4.49%;
@@ -5351,14 +4907,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-122-750002-container {
   width: 8.7%;
   height: 4.49%;
@@ -5394,14 +4947,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-123-627264-container {
   width: 8.7%;
   height: 4.49%;
@@ -5437,14 +4987,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-124-532908-container {
   width: 8.7%;
   height: 4.49%;
@@ -5480,14 +5027,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-125-287966-container {
   width: 8.7%;
   height: 4.49%;
@@ -5523,14 +5067,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-126-269376-container {
   width: 8.7%;
   height: 4.49%;
@@ -5566,14 +5107,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-127-140266-container {
   width: 8.7%;
   height: 4.49%;
@@ -5609,14 +5147,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-128-243492-container {
   width: 8.7%;
   height: 4.49%;
@@ -5652,14 +5187,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-129-51415-container {
   width: 8.7%;
   height: 4.49%;
@@ -5695,14 +5227,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-130-29624-container {
   width: 8.7%;
   height: 4.49%;
@@ -5738,14 +5267,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-131-191884-container {
   width: 8.7%;
   height: 4.49%;
@@ -5781,14 +5307,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-132-16283-container {
   width: 8.7%;
   height: 4.49%;
@@ -5824,14 +5347,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-133-8480-container {
   width: 8.7%;
   height: 4.49%;
@@ -5867,14 +5387,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-134-5940-container {
   width: 8.7%;
   height: 4.49%;
@@ -5910,14 +5427,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-135-287166-container {
   width: 8.7%;
   height: 4.49%;
@@ -5953,14 +5467,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .word-136-98679-container {
   width: 8.7%;
   height: 4.49%;
@@ -5996,14 +5507,11 @@ body {
   font-size: calc(25 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(26 * var(--ratio));
   color: #ffffffff;
 }
-
 .profile-fav-a-s-1-57800 {
   width: 91.86%;
   height: 67.72%;
@@ -6053,14 +5561,11 @@ body {
   font-size: calc(13 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(14 * var(--ratio));
   color: #ffffffbf;
 }
-
 .birthday-1-522614 {
   width: 91.14%;
   height: 11.41%;
@@ -6086,14 +5591,11 @@ body {
   font-size: calc(13 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(14 * var(--ratio));
   color: #ffffffbf;
 }
-
 .gender-1-167066 {
   width: 91.14%;
   height: 11.41%;
@@ -6119,14 +5621,11 @@ body {
   font-size: calc(13 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(14 * var(--ratio));
   color: #ffffffbf;
 }
-
 .hometown-1-92904 {
   width: 91.14%;
   height: 11.41%;
@@ -6152,14 +5651,11 @@ body {
   font-size: calc(13 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(14 * var(--ratio));
   color: #ffffffbf;
 }
-
 .occupation-1-92722 {
   width: 91.14%;
   height: 11.41%;
@@ -6185,14 +5681,11 @@ body {
   font-size: calc(13 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(14 * var(--ratio));
   color: #ffffffbf;
 }
-
 .a-single-word-1-81130 {
   width: 100%;
   height: 8.49%;
@@ -6232,14 +5725,11 @@ body {
   font-size: calc(13 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(14 * var(--ratio));
   color: #ffffffbf;
 }
-
 .fav-1-468 {
   width: 100%;
   height: 48.35%;
@@ -6294,14 +5784,11 @@ body {
   font-size: calc(13 * var(--ratio));
   font-family: Keania One;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(14 * var(--ratio));
   color: #ffffffbf;
 }
-
 .music-1-547690 {
   width: 27.42%;
   height: 35.48%;
@@ -6327,16 +5814,13 @@ body {
   font-size: calc(69 * var(--ratio));
   font-family: SF Pro;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(70 * var(--ratio));
   background: -webkit-radial-gradient(#ffffff00 0%, #ffffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .div-1-50960 {
   width: 95.96%;
   height: 46.46%;
@@ -6352,14 +5836,11 @@ body {
   font-size: calc(15 * var(--ratio));
   font-family: Noto Serif JP;
   font-weight: 700;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(16 * var(--ratio));
   color: #ffffffff;
 }
-
 .movie-1-71894 {
   width: 27.42%;
   height: 35.48%;
@@ -6385,16 +5866,13 @@ body {
   font-size: calc(69 * var(--ratio));
   font-family: SF Pro;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(70 * var(--ratio));
   background: -webkit-radial-gradient(#ffffff00 0%, #ffffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .div-1-603648 {
   width: 95.96%;
   height: 46.46%;
@@ -6410,14 +5888,11 @@ body {
   font-size: calc(15 * var(--ratio));
   font-family: Noto Serif JP;
   font-weight: 700;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(16 * var(--ratio));
   color: #ffffffff;
 }
-
 .book--comic-1-554246 {
   width: 27.42%;
   height: 35.48%;
@@ -6443,16 +5918,13 @@ body {
   font-size: calc(69 * var(--ratio));
   font-family: SF Pro;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(70 * var(--ratio));
   background: -webkit-radial-gradient(#ffffff00 0%, #ffffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .div-1-44252 {
   width: 95.96%;
   height: 46.46%;
@@ -6468,14 +5940,11 @@ body {
   font-size: calc(15 * var(--ratio));
   font-family: Noto Serif JP;
   font-weight: 700;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(16 * var(--ratio));
   color: #ffffffff;
 }
-
 .sports-1-11837 {
   width: 27.42%;
   height: 35.48%;
@@ -6501,16 +5970,13 @@ body {
   font-size: calc(69 * var(--ratio));
   font-family: SF Pro;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(70 * var(--ratio));
   background: -webkit-radial-gradient(#ffffff00 0%, #ffffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .div-1-823544 {
   width: 95.96%;
   height: 46.46%;
@@ -6526,14 +5992,11 @@ body {
   font-size: calc(15 * var(--ratio));
   font-family: Noto Serif JP;
   font-weight: 700;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(16 * var(--ratio));
   color: #ffffffff;
 }
-
 .food-1-87714 {
   width: 27.42%;
   height: 35.48%;
@@ -6559,16 +6022,13 @@ body {
   font-size: calc(69 * var(--ratio));
   font-family: SF Pro;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(70 * var(--ratio));
   background: -webkit-radial-gradient(#ffffff00 0%, #ffffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .div-1-310080 {
   width: 95.96%;
   height: 46.46%;
@@ -6584,14 +6044,11 @@ body {
   font-size: calc(15 * var(--ratio));
   font-family: Noto Serif JP;
   font-weight: 700;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(16 * var(--ratio));
   color: #ffffffff;
 }
-
 .recommend-1-170023 {
   width: 27.42%;
   height: 35.48%;
@@ -6617,16 +6074,13 @@ body {
   font-size: calc(69 * var(--ratio));
   font-family: SF Pro;
   font-weight: 400;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(70 * var(--ratio));
   background: -webkit-radial-gradient(#ffffff00 0%, #ffffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .div-1-9140 {
   width: 95.96%;
   height: 46.46%;
@@ -6642,10 +6096,8 @@ body {
   font-size: calc(15 * var(--ratio));
   font-family: Noto Serif JP;
   font-weight: 700;
-
   text-decoration: none;
   text-transform: none;
-
   line-height: calc(16 * var(--ratio));
   color: #ffffffff;
 }
